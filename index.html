@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body class="">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+<div class="container">
+    <!-- <button onclick="playSound()">test sound</button> -->
+            <audio controls class="a_audio invisible">
+    
+                <source src="voice.wav" type="audio/mpeg">
+           
+              </audio>
+    <div class="night_mode">
+        <div class="toggle_circle"></div>
+    </div>
+    <div class="change_light_color">
+        <div class="colors">
+            <input class="colors_input" type="color" >
+        </div>
+    </div>
+    <div class="keyboard_wrapp">
+        <div class="keyboard_lights"></div>
+        <div class="keyboard_keys">
+            <div class="row">
+                
+                <div class="keys"><button onclick="playSound()">\</button>`</div>
+                <div class="keys"><button onclick="playSound()">1</button></div>
+                <div class="keys"><button onclick="playSound()">2</button></div>
+                <div class="keys"><button onclick="playSound()">3</button></div>
+                <div class="keys"><button onclick="playSound()">4</button></div>
+                <div class="keys"><button onclick="playSound()">5</button></div>
+                <div class="keys"><button onclick="playSound()">6</button></div>
+                <div class="keys"><button onclick="playSound()">7</button></div>
+                <div class="keys"><button onclick="playSound()">8</button></div>
+                <div class="keys"><button onclick="playSound()">9</button></div>
+                <div class="keys"><button onclick="playSound()">0</button></div>
+                <div class="keys"><button onclick="playSound()">-</button></div>
+                <div class="keys"><button onclick="playSound()">+</button></div>
+                <div class="keys backspace_key"><button onclick="playSound()">BACKSPACE</button></div>
+           
+            </div>
+            <div class="row">
+                <div class="keys tab_key"><button onclick="playSound()">Tab</button></div>
+                <div class="keys"><button onclick="playSound()">Q</button></div>
+                <div class="keys"><button onclick="playSound()">W</button></div>
+                <div class="keys"><button onclick="playSound()">E</button></div>
+                <div class="keys"><button onclick="playSound()">R</button></div>
+                <div class="keys"><button onclick="playSound()">T</button></div>
+                <div class="keys"><button onclick="playSound()">Y</button></div>
+                <div class="keys"><button onclick="playSound()">U</button></div>
+                <div class="keys"><button onclick="playSound()">I</button></div>
+                <div class="keys"><button onclick="playSound()">O</button></div>
+                <div class="keys"><button onclick="playSound()">P</button></div>
+                <div class="keys"><button onclick="playSound()">[</button></div>
+                <div class="keys"><button onclick="playSound()">]</button></div>
+                <div class="keys slash_key"><button onclick="playSound()">\</button></div>
+            </div>
+            <div class="row">
+                <div class="keys caps_lock_key"><button onclick="playSound()">CAPS LOCK</button></div>
+                <div class="keys"><button onclick="playSound()">A</button></div>
+                <div class="keys"><button onclick="playSound()">S</button></div>
+                <div class="keys"><button onclick="playSound()">D</button></div>
+                <div class="keys"><button onclick="playSound()">F</button></div>
+                <div class="keys"><button onclick="playSound()">G</button></div>
+                <div class="keys"><button onclick="playSound()">H</button></div>
+                <div class="keys"><button onclick="playSound()">J</button></div>
+                <div class="keys"><button onclick="playSound()">K</button></div>
+                <div class="keys"><button onclick="playSound()">L</button></div>
+                <div class="keys"><button onclick="playSound()">;</button></div>
+                <div class="keys"><button onclick="playSound()">'</button></div>
+                <div class="keys enter_key"><button onclick="playSound()">ENTER</button></div>
+            </div>
+            
+            <div class="row">
+                <div class="keys shift_key shift_left"><button onclick="playSound()">SHIFT</button></div>
+                <div class="keys"><button onclick="playSound()">Z</button></div>
+                <div class="keys"><button onclick="playSound()">X</button></div>
+                <div class="keys"><button onclick="playSound()">C</button></div>
+                <div class="keys"><button onclick="playSound()">V</button></div>
+                <div class="keys"><button onclick="playSound()">B</button></div>
+                <div class="keys"><button onclick="playSound()">N</button></div>
+                <div class="keys"><button onclick="playSound()">M</button></div>
+                <div class="keys"><button onclick="playSound()">,</button></div>
+                <div class="keys"><button onclick="playSound()">.</button></div>
+                <div class="keys"><button onclick="playSound()">/</button></div>
+                <!-- <div class="keys"><button onclick="playSound()"></button></div> -->
+                <div class="keys shift_key shift_right"><button onclick="playSound()">SHIFT</button></div>
+            </div>
+            <div class="row">
+                <div class="keys ctrl_key ctrl_left"><button onclick="playSound()">CTRL</button></div>
+                <div class="keys win_key"><button onclick="playSound()">WIN</button></div>
+                <div class="keys alt_key alt_left"><button onclick="playSound()">ALT</button></div>
+                <div class="keys space_key"></div>
+                <div class="keys alt_key alt_right"><button onclick="playSound()">ALT</button></div>
+                <div class="keys"><button onclick="playSound()">FN</button></div>
+                <div class="keys ctrl_key ctrl_right"><button onclick="playSound()">CTRL</button></div>
+                
+            </div>
+        </div>
+    </div>
+    <input class="text" type="text">
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
